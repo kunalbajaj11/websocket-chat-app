@@ -1,0 +1,27 @@
+{
+  "name": "websocket-chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunalbajaj11/websocket-chat-app.git"
+  },
+  "author": "Kunal Bajaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunalbajaj11/websocket-chat-app/issues"
+  },
+  "homepage": "https://github.com/kunalbajaj11/websocket-chat-app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
